@@ -1,0 +1,5 @@
+# IDE
+.idea
+
+# directory where json files are stored
+data

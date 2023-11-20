@@ -1,0 +1,8 @@
+# I needed to add the below to my crontab to get the `jq` command to work.
+# PATH=/opt/homebrew/bin:$PATH
+
+# run logging every five minutes
+1/5 * * * * /path/to/your/track-memory.sh
+
+# run cron for averaging script at 2am every day
+59 23 * * * /path/to/your/find-averages.sh
